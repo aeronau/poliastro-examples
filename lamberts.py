@@ -3,7 +3,6 @@ import matplotlib.pyplot as plt
 from cycler import cycler
 
 from poliastro.iod import izzo
-
 plt.rc('text', usetex=True)
 
 x = np.linspace(-1, 2, num=1000)
